@@ -1,7 +1,28 @@
-.repositorie-list {
+.repository-List {
     margin: 40px;
 }
 
 h1 {
     margin-bottom: 16px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul > li {
+   margin-top: 20px;
+}
+
+ul > li > p {
+    font-size: 14px;
+    color: #444;
+    margin-top: 8px;
+}
+
+ul > li > p > a {
+    display: inline-block;
+    margin-top: 16px;
+    text-decoration: none;
+    color: #8257e6;
 }
